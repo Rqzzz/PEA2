@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\20127\\pea2\\coincollector1\\source\\coincollector1\\variant_combat\\gameplay\\combatdummy.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\20127\\pea2\\coincollector1\\intermediate\\build\\win64\\x64\\coincollector1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\20127\\pea2\\coincollector1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coincollector1\\definitions.coincollector1.h",
+            "c:\\users\\20127\\pea2\\coincollector1\\source\\coincollector1\\variant_combat\\gameplay\\combatdummy.h",
+            "c:\\users\\20127\\pea2\\coincollector1\\source\\coincollector1\\variant_combat\\interfaces\\combatdamageable.h",
+            "c:\\users\\20127\\pea2\\coincollector1\\intermediate\\build\\win64\\unrealeditor\\inc\\coincollector1\\uht\\combatdamageable.generated.h",
+            "c:\\users\\20127\\pea2\\coincollector1\\intermediate\\build\\win64\\unrealeditor\\inc\\coincollector1\\uht\\combatdummy.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicsconstraintcomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintinstance.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintdrives.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintdrives.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintinstance.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicsconstraintcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CoinCollector1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CoinCollector1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CoinCollector1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CoinCollector1">
+      <UniqueIdentifier>{0CD6DF31-4993-3815-8C03-43AD9FF3E6BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CoinCollector1\CoinCollector1.Build.cs">
+      <Filter>Source\CoinCollector1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CoinCollector1\CoinCollector1.cpp">
+      <Filter>Source\CoinCollector1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\CoinCollector1.h">
+      <Filter>Source\CoinCollector1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\CoinCollector1Character.cpp">
+      <Filter>Source\CoinCollector1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\CoinCollector1Character.h">
+      <Filter>Source\CoinCollector1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\CoinCollector1GameMode.cpp">
+      <Filter>Source\CoinCollector1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\CoinCollector1GameMode.h">
+      <Filter>Source\CoinCollector1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\CoinCollector1PlayerController.cpp">
+      <Filter>Source\CoinCollector1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\CoinCollector1PlayerController.h">
+      <Filter>Source\CoinCollector1</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_Combat">
+      <UniqueIdentifier>{A5932476-7A92-35FC-BE50-78ACDAFD5859}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\CoinCollector1\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\CoinCollector1\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\CoinCollector1\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_Combat\AI">
+      <UniqueIdentifier>{91D80067-3192-313D-9C2C-CB064CEBB08D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_Combat\Animation">
+      <UniqueIdentifier>{076FFE8E-0B66-3C9E-BD31-61FFFAC58A47}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{4D80C39E-F0ED-3A59-A9B0-25BE442A06DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{E4E309A7-5C61-34EA-A362-CBAA29F6F7CC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_Combat\UI">
+      <UniqueIdentifier>{95C420AD-A67D-3FA1-9B6F-62D2289C10F8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\CoinCollector1\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\CoinCollector1\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_Platforming">
+      <UniqueIdentifier>{C83BE3B6-9F8F-3E4D-9031-5AB4A06818B9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\CoinCollector1\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\CoinCollector1\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\CoinCollector1\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\CoinCollector1\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\CoinCollector1\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\CoinCollector1\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_Platforming\Animation">
+      <UniqueIdentifier>{0B21B484-E56D-3311-ACB7-F65652CA147C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\CoinCollector1\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\CoinCollector1\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_SideScrolling">
+      <UniqueIdentifier>{6B6D4262-5F79-3FB3-98C7-BB31360F031A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{2280A628-8D32-3CD0-B01D-6256951BDDFE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{3969767D-C119-3B23-8A7B-3F216FCBD634}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{D0E0B7EB-BA12-3549-B2C2-E0EBA65100A4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoinCollector1\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{34C7CC99-0D97-31F4-99DC-EA3306B00430}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoinCollector1\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CoinCollector1\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\CoinCollector1\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
