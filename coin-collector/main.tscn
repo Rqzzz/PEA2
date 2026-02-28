@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bd78vw646cdbk"]
+
+[ext_resource type="PackedScene" path="res://proto_controller.tscn" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://cicashdrr51n4" path="res://proto_controller.gd" id="2_0xm2m"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_h2yge"]
+
+[node name="Main" type="Node3D" unique_id=93147912]
+
+[node name="ProtoController" parent="." unique_id=524064839 instance=ExtResource("1_ig7tw")]
+script = null
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ProtoController" unique_id=1859687107]
+transform = Transform3D(9.404547, 0, 0, 0, 0.66582805, 0, 0, 0, 7.238781, 0, -0.6203742, 0)
+mesh = SubResource("BoxMesh_h2yge")
+
+[node name="ProtoController2" parent="." unique_id=1861832784 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6089833, 0, 0)
+script = ExtResource("2_0xm2m")
