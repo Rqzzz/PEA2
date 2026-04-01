@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://be5y8l648mwee"]
+
+[ext_resource type="Script" uid="uid://cfcntnt4ruf83" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="PackedScene" uid="uid://lnpjvq5golmt" path="res://coin.tscn" id="2_onrkg"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_onrkg"]
+height = 1.9399414
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_i3pqv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_onrkg"]
+size = Vector3(10, 0.1, 10)
+
+[sub_resource type="BoxMesh" id="BoxMesh_i3pqv"]
+size = Vector3(10, 0.1, 10)
+
+[node name="Player" type="CharacterBody3D" unique_id=70468092 groups=["Player"]]
+script = ExtResource("1_4flbx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=66454756]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+shape = SubResource("CapsuleShape3D_onrkg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1390357416]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+mesh = SubResource("CapsuleMesh_i3pqv")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1587441583]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2241882, 0.5838418, 3.486638)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1308546316]
+transform = Transform3D(-0.8665059, -0.09162449, -0.49068558, -0.4604649, -0.23279624, 0.8566084, -0.19271608, 0.9681998, 0.15952943, -4.810189, 4.3363504, 1.7579966)
+
+[node name="Ground" type="StaticBody3D" parent="." unique_id=766817138]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=1297964590]
+shape = SubResource("BoxShape3D_onrkg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=650491596]
+mesh = SubResource("BoxMesh_i3pqv")
+
+[node name="Coin2" parent="." unique_id=110617816 instance=ExtResource("2_onrkg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.656929, 0.5500002, 0.9675274)
